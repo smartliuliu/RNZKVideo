@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "zhike-video-ios"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "video for iOS develop"
 
   s.homepage     = "https://github.com/smartliuliu/RNZKVideo"
@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.public_header_files = "zhike-video-ios/**/*.h"
 
   s.dependency 'ZhikeVideo'
+  s.dependency 'React'
   s.requires_arc = true
 
 end
