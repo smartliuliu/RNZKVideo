@@ -1,0 +1,33 @@
+PODS:
+  - Masonry (1.1.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - zhike-video-ios (0.0.1):
+    - ZhikeVideo
+  - ZhikeVideo (1.0.2):
+    - Masonry
+    - SDWebImage
+
+DEPENDENCIES:
+  - zhike-video-ios (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - SDWebImage
+    - ZhikeVideo
+
+EXTERNAL SOURCES:
+  zhike-video-ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  zhike-video-ios: 86c4e20eaa6009eec7c684e64a9080f21216add7
+  ZhikeVideo: b6c2f790b7662f9d7402e216c5976cea2d818313
+
+PODFILE CHECKSUM: 523f016809787ffc97e08e9a6445d7eb6f2e966b
+
+COCOAPODS: 1.6.0.beta.2
