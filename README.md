@@ -1,6 +1,11 @@
 # RNZKVideo
 
-#### podfile:
+#### Getting Started
+   ```
+   npm i --save zhike-video-ios
+   ```
+  
+#### iOS podfile:
  
  ```
  pod 'React', :path => '../node_modules/react-native' 
