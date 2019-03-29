@@ -19,6 +19,7 @@ RCT_EXPORT_MODULE();
 
 - (UIView *)view {
   ZKVideoView *view =  [[ZKVideoView alloc] init];
+  view.isRN = YES;
   view.delegate = self;
   return view;
 }
@@ -44,6 +45,7 @@ RCT_EXPORT_VIEW_PROPERTY(replay, BOOL);
 RCT_EXPORT_VIEW_PROPERTY(teardownPlay, BOOL);
 RCT_EXPORT_VIEW_PROPERTY(pausedPlay, BOOL);
 RCT_EXPORT_VIEW_PROPERTY(videoScale, NSString);
+RCT_EXPORT_VIEW_PROPERTY(changeOrientation, NSInteger);
 
 RCT_EXPORT_VIEW_PROPERTY(onVideoBack, RCTBubblingEventBlock);
 RCT_EXPORT_VIEW_PROPERTY(onVideoEnd, RCTBubblingEventBlock)
